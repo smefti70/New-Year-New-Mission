@@ -57,11 +57,12 @@
     height: 500px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
 .offer-section img{
-    width: 100%;
+    width: 80%;
 }
 
 .offer-text{
@@ -96,7 +97,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 30px 60px;
+    margin: 150px 60px;
     background: url('images/midnight-party.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,5 +146,65 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+/* Coming Soon Section Styles */
+.coming-soon-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+    margin: 150px 60px;
+}
+.coming-soon-content h4{
+    font-family: "Inter", sans-serif;
+    color: #F42712;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.coming-soon-content h2{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.coming-soon-content p,
+.new-year-2024 p{
+    font-family: "Inter", sans-serif;
+    color:gray;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.circle-image{
+    border: 10px solid #F42712;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.circle-image img{
+    width: 100%;
+}
+
+.new-year-2024{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.new-year-2024 h2{
+    font-family: "Inter", sans-serif;
+    color: #F42712;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.new-year-2024 img{
+    margin-top: 30px;
+    width: 25%;
+}
+
+
 
 
