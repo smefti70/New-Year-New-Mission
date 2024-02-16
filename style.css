@@ -171,7 +171,8 @@
 
 .coming-soon-content p,
 .new-year-2024 p,
-.portfolio-text p{
+.portfolio-text p,
+.subscribe-section p{
     font-family: "Inter", sans-serif;
     color:gray;
     font-size: 18px;
@@ -240,6 +241,49 @@
     transform: scale(1.1);
 }
 
+/* Subscribe Section Styles */
+.subscribe-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    background-color: #FFF2F2;
+    border-radius: 10px;
+    margin: 150px 60px;
+}
+
+.subscribe-section img{
+    width: 150px;
+}
+
+.subscribe-section h2{
+    font-family: "Merriweather", sans-serif;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.subscribe-field{
+    margin-top: 30px;
+}
+
+input[type='email']{
+    width: 200px;
+    padding: 15px 25px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    outline: 0;
+}
+
+input[type='submit']{
+    padding: 15px 25px;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    background-color: #FF0000;
+    color: white;
+    margin-left: -5px;
+    cursor: pointer;
+}
 
 
 
