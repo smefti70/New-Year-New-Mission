@@ -285,5 +285,55 @@ input[type='submit']{
     cursor: pointer;
 }
 
+/* Footer Section Styles */
+footer{
+    padding: 20px;
+    background-color: #070211;
+    height: 450px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-details{
+    display: flex;
+    gap: 600px;
+    margin-bottom: 50px;
+}
+
+.contact-no,
+.website{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+
+footer p,span{
+    color: white;
+    font-weight: 500;
+}
+
+.border {
+    margin: 0 auto;
+    width: 1110px;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+}
+
+.logos{
+    margin: 30px auto;
+    display: flex;
+    gap: 20px;
+}
+
+.copyright{
+    margin: 80px auto 0;
+    display: flex;
+    gap: 600px;
+}
 
 
